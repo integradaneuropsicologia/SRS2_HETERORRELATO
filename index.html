@@ -56,8 +56,8 @@
     <h1>SRS-2 — Questionário (Heterorrelato)</h1>
     <p class="muted">
       Responda pensando na pessoa avaliada. As opções são:
-      <em>Não é verdade (1)</em>, <em>Algumas vezes é verdade (2)</em>,
-      <em>Muitas vezes é verdade (3)</em>, <em>Quase sempre é verdade (4)</em>.
+      <em>Não é verdade</em>, <em>Algumas vezes é verdade</em>,
+      <em>Muitas vezes é verdade</em>, <em>Quase sempre é verdade</em>.
     </p>
 
     <!-- Cabeçalho: só nome e telefone -->
@@ -202,10 +202,10 @@ const ITEMS = [
 "Fica com olhar perdido ou olha fixamente para o nada."
 ];
 const CHOICES = [
-  {label:"Não é verdade", value:0},
-  {label:"Algumas vezes é verdade", value:1},
-  {label:"Muitas vezes é verdade", value:2},
-  {label:"Quase sempre é verdade", value:3},
+  {label:"Não é verdade", value:1},
+  {label:"Algumas vezes é verdade", value:2},
+  {label:"Muitas vezes é verdade", value:3},
+  {label:"Quase sempre é verdade", value:4},
 ];
 function renderQuestions(){
   const host = $("#qs"); host.innerHTML="";
